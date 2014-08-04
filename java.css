@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url(images/backgroundimage.jpg);
+}
+ 
+
+header {
+  display:block;
+  width:100%;
+  background-color: white;
+  padding:20px;
+  margin-bottom: 20px;
+  color: white;
+  padding-right: 50%;
+  opacity: .7;
+}
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  list-style-type: none;
+  margin-left: 45%;
+}
+
+header a  {
+  text-decoration: none;
+  font-family: courier;
+  font-size: 300%;
+}
+
+header a:hover  {
+  text-decoration: underline;
+}
+
+nav ul > li {
+  display:inline-block;
+  padding: 20px;
+  margin-left:65px;
+  text-align: center;
+  color: pink;
+}
+
+.container {
+	position: relative;
+	display: block;
+	width:100%;
+	margin-left: 36%;
+}
+
+
+.albumone, .albumtwo, .albumthree {
+ margin: 0;
+ padding: 0;
+ margin-right: 0;
+margin-left: 0;
+display: none;
+}
+
+
+.albumone li, .albumtwo li, .albumthree li {
+  display: inline-block;
+}
+
+.currentPage {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+ img {
+	margin: 0;
+	padding: 0;
+	
+	margin-right: 0; 
+	margin-left: 0;
+}
+
+.container .hide{
+  display:none;
+}
+
+
+
+.checked img{
+ display:inline block;
+ width: 600px;
+ height: 600px; transition: all .8s ease;
+}
+
